@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Okta.Idx.Sdk" Version="2.2.3" />
+    <PackageReference Include="Okta.Sdk.Abstractions" Version="4.0.6" />
+  </ItemGroup>
+
+</Project>
